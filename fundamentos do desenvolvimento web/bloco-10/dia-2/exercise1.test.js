@@ -6,5 +6,5 @@ it(`A chamada da função uppercase com o parâmetro 'test' deve retornar 'TEST'
     uppercase('test', (str) => {
       expect(str).toBe('TEST');
       done();
-    });
   });
+});
